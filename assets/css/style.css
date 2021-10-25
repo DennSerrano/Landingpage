@@ -1,0 +1,175 @@
+/* =======================
+    Generel
+======================= */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=IM+Fell+English+SC&display=swap');
+/* font-family: 'Cormorant Garamond', serif;
+font-family: 'IM Fell English SC', serif; */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background: url("../img/levis\ schleier.jpg")center/cover no-repeat;
+    
+}
+/* =======================
+    Header Nav
+======================= */
+header nav div img{
+    width:3%;
+    border-radius: 50%;
+}
+header nav div{
+    margin:1vh 0 1vh 1vw;
+}
+header nav {
+    position: relative;
+    border-bottom: 2px solid gray;
+    
+}
+header nav p{
+    font-size: 3vh;
+    font-family: 'IM Fell English SC', serif;
+    position: absolute;
+    left:6vw;
+    bottom: 2vh;
+}
+header nav ul{
+list-style: none;
+position: absolute;
+right:4vw;
+bottom:3vh;
+}
+header nav ul li{
+display: inline-block;
+margin:0 0 0 1vw;
+}
+header nav ul li a{
+    color:black;
+text-decoration: none;
+font-size: 3vh;
+}
+
+/* =======================
+    Main
+======================= */
+main p{
+    font-family: 'Cormorant Garamond', serif;
+text-align: center;
+font-size:4vh;
+background-color: whitesmoke;
+width:70%;
+margin: 0 auto 10vh auto;
+}
+.p1{
+    width:70%;
+    margin: 15vh auto 0 auto;
+}
+main h1{
+    font-family: 'IM Fell English SC', serif; 
+    color:white;
+    text-align: center;
+    font-size:8vh;
+    background-color:black;
+    width:70%;
+    margin: 0 auto;
+}
+
+main div{
+    text-align: center;
+margin-bottom: 20vh;
+}
+main div img{
+    opacity: 0.5;
+    width:300px;
+    border-radius: 50%;
+}
+.camera{
+    margin-right:30vw;
+}
+main div img:hover{
+    opacity: 1;
+}
+.altezeit{
+    color:whitesmoke;
+    background:black;
+    border-radius: 50%;
+    padding:5vh 5vw;
+    opacity:0.5;
+    position:absolute;
+    top:55vh;
+    left:40vw;
+    width:20%;
+}
+.altezeit:hover{
+    opacity:1;
+}
+/* =======================
+    Main Gallery
+======================= */
+h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 6vh;
+    text-align: center;
+}
+main article {
+    text-align: center;
+}
+main article figure{
+display: inline-block;
+margin:10vh 5vw 5vh 5vw;
+}
+main article figure figcaption{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bolder;
+    font-size: 3vh;
+}
+main article figure img{
+    border-radius: 5%;
+    width:300px;
+    height: 200px;
+}
+main article figure img:hover{
+    box-shadow: 0 0 10px 0px black;
+}
+main div button{
+    background-color:black;
+    margin: 10vh auto 10vh auto;
+    padding:2.5vh 10vw;
+    border-style: none;
+}
+main div button a{
+    color:white;
+    font-size: 6vh;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+}
+/* =======================
+    Footer
+=======================  */
+footer{
+    margin-top:20vh;
+    border-top: 2px solid gray;
+}
+footer p{
+    font-size: 3vh;
+    font-family: 'IM Fell English SC', serif;
+    margin-top:2vh;
+}
+footer nav{
+    text-align: right;
+    padding:2vh 0;
+
+}
+footer nav ul{
+    list-style: none;
+}
+footer nav ul li{
+display: inline-block;
+}
+footer nav ul li a i{
+    color:black;
+    font-size: 4vh;
+    padding:1vw;
+}
